@@ -337,7 +337,7 @@ def rag_mean_color(image, labels, connectivity=2, mode='distance',
            segmentation. IEEE Transactions on Pattern Analysis and Machine
            Intelligence, 22(8), 888-905. http://doi.org/10.1109/34.868688
 
-           """
+    """
     graph = RAG(labels, connectivity=connectivity)
 
     for n in graph:
